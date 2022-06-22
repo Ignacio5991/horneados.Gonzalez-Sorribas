@@ -57,8 +57,14 @@
     justify-content: space-between;
 }
 .taMaño{
+    padding: 50px;
+    transition: transform .2s;
     width: 250px;
     height: 250px;
+    margin:auto;
+}
+.taMaño:hover{
+    transform: scale(1.5);
 }
 .flaier{
     position:relative;
