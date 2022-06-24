@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="icon" href="./Imagenes/Logo.ico">
     <link rel="stylesheet" href="./css/estilos.css">
@@ -17,33 +18,68 @@
 </head>
 <!--Aqui comienza el body-->
 <body class="body">
-    <header class="header">
+    <header class="header"> 
         <h1 class="titulo"> Horneados Lila & Magda </h1>
-        <img class="logo" src="./Imagenes/Logo.png"> 
-            <nav class="menu">
-                <ul>
-                    <li>Inicio</li>
-                    <li><a href="./Paginas/nuestras delicias.html">Nuestras Delicias </a></li>
-                    <li><a href="./Paginas/catalogo.html">Catalogo</a></li>
-                    <li><a href="./Paginas/quienes Somos.html">Quienes Somos</a></li>
-                    <li><a href="./Paginas/testimonios.html">Testimonios</a></li>
-                    <li><a href="./Paginas/contactenos.html">Contactenos</a></li>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img  class="logo" src= "imagenes/Logo.png" width="120" height="90">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/nuestras delicias.html">Nuestras Delicias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/catalogo.html">Catalogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/quienes somos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/testimonios.html">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/contactenos.html">Contactenos</a>
+                  </li>
                 </ul>
-            </nav>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <section>
             <h2 class="encabezado">Nuestras Delicias</h2>
             <img class="flaier" src="./Imagenes/flaier.jpg">
         </section>
-        <section class="gAleria">
-            <h2 class="catalogo">Catalogo</h2>
-            <img class="acida" src="./Imagenes/Lemon pie.jpg" alt="Lemon pie con merengue italiano">
-            <h3 class="tortas">Tartas</h3>
-            <img class="dl" src="./Imagenes/Alfajores.jpg" alt="Alfajorcitos de chocolate con relleno de dulce de leche ideales para tomar el te">
-            <h3 class="alfajor">Alfajores</h3>
-            <img class="fr" src="./Imagenes/Masitas.jpg" alt="Masas secas a base de maicena con relleno de frutos rojos">
-            <h3 class="masas">Masas Secas</h3>
+        <section>
+            <div class="row">
+             <h2 class="catalogo">Catalogo</h2>
+             <div class="card bg-transparent col-lg-4 col-md-12 border-0">
+                 <img src="./imagenes/Lemon_pie.jpg" class="card-img-top" alt="Lemon pie con merengue italiano">
+                 <div class="card-body">
+                   <h3 class="card-title">Tartas</h3>
+                 </div>
+             </div>
+             <div class="card bg-transparent col-lg-4 col-md-12 border-0">
+                 <img src="./imagenes/Alfajores.jpg" class="card-img-top" alt="Alfajorcitos de chocolate con relleno de dulce de leche ideales para tomar el te">
+                 <div class="card-body">
+                   <h3 class="card-title">Alfajores</h3>
+                 </div>
+             </div>
+             <div class="card bg-transparent col-lg-4 col-md-12 border-0">
+                 <img src="./imagenes/Masitas.jpg" class="card-img-top" alt="Masas secas a base de maicena con relleno de frutos rojos">
+                 <div class="card-body">
+                   <h3 class="card-title">Masas Secas</h3>
+                 </div>
+             </div>
+            </div>
         </section>
     </main>
     <!--Aqui comienza el footer-->
@@ -56,5 +92,6 @@
        <p class="seguinos">Seguinos</p></div>
        <div class="bp-copyright ft-copyright"></div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

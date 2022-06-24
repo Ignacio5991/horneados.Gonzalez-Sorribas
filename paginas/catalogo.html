@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="icon" href="./../Imagenes/Logo.ico">
     <link rel="stylesheet" href="../css/estilos.css">
@@ -17,48 +18,70 @@
 </head>
 <!--Aqui comienza el body-->
 <body class="body">
-    <header class="header">
-        <h1 class="nombreP">Catalogo</h1>
-        <nav class="menu">
-            <ul>
-                <li><a href="../index.html">Inicio </a></li>
-                <li><a href="./nuestras delicias.html">Nuestras Delicias </a></li>
-                <li>Catalogo</li>
-                <li><a href="./quienes Somos.html">Quienes Somos</a></li>
-                <li><a href="./testimonios.html">Testimonios</a></li>
-                <li><a href="./contactenos.html">Contactenos</a></li>
-            </ul>
-        </nav>
+    <header class="header"> 
+        <h1 class="titulo"> Horneados Lila & Magda </h1>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img  class="logo" src= "./../imagenes/Logo.png" width="120" height="90">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/nuestras delicias.html">Nuestras Delicias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" >Catalogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/quienes somos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/testimonios.html">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/contactenos.html">Contactenos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
         <section>
             <h2 class="encabezado">Productos y lista de precios</h2>
-            <ul>
-                <li>TARTAS (Lemon pie, Pasta frola, Toffy, Coco y Dulce de leche, ricota, frutillas): 
-                <li>Grande $1200</li>
-                <li>Mediano $1000</li>
-                <li>Chica $550</li>
-                <li>Alfajores (Chocolate, Maizena, Nuez, Santafesino)</li>
-                <li>Grandes $80 c/u</li>
-                <li>Medianos $1000 la docena</li>
-                <li>Chicos $800 la docena</li>
-                <li>CUPCAKES (Chocolate, Chocolate con dulce de leche, Vainilla con chips, Vainilla, Vainilla con dulce de leche, Frutos rojos, Limón, Naranja)</li>
-                <li>$80 c/u</li>
-                <li>CUADRADITOS (Limón, Coco con dulce de leche, Manzana)</li>
-                <li>$750 1/2 docena</li>
-                <li>$1400 la docena</li>
-                <li>CONITOS DE DULCE DE LECHE</li>
-                <li>$700 1/2 Docena</li>
-                <li>$900 la docena</li>
-                <li>BUDINES (Limón, Naranja, Chips, Carrot Cake, Frutos rojos)</li>
-                <li>Grandes $850</li>
-                <li>Medianos $600</li>
-                <li>Chicos (vienen 6 unidades) $60</li>
-                <li>MASAS SECAS</li>
-                <li>El Kg $1000</li>
-                <li>TORTAS (Limón con chocolate blanco, Torta chocobomba, Naranja con chocolare negro, Marquise)</li>
-                <li>Grand $1500</li>
-                <li>Chica $700</li>
+            <ul class="list-group">
+              <li class="list-group-item">TARTAS (Lemon pie, Pasta frola, Toffy, Coco y Dulce de leche, ricota, frutillas)</li>
+              <li class="list-group-item">Grande $1200</li>
+              <li class="list-group-item">Mediano $1000</li>
+              <li class="list-group-item">Chica $550</li>
+              <li class="list-group-item">Alfajores (Chocolate, Maizena, Nuez, Santafesino)</li>
+              <li class="list-group-item">Grandes $80 c/u</li>
+              <li class="list-group-item">Medianos $1000 la docena</li>
+              <li class="list-group-item">Chicos $800 la docena</li>
+              <li class="list-group-item">CUPCAKES (Chocolate, Chocolate con dulce de leche, Vainilla con chips, Vainilla, Vainilla con dulce de leche, Frutos rojos, Limon, Naranja)</li>
+              <li class="list-group-item">$80 c/u</li>
+              <li class="list-group-item">CUADRADITOS (Limón, Coco con dulce de leche, Manzana)</li>
+              <li class="list-group-item">$750 1/2 docena</li>
+              <li class="list-group-item">$1400 la docena</li>
+              <li class="list-group-item">CONITOS DE DULCE DE LECHE</li>
+              <li class="list-group-item">$700 1/2 Docena</li>
+              <li class="list-group-item">$900 la docena</li>
+              <li class="list-group-item">BUDINES (Limón, Naranja, Chips, Carrot Cake, Frutos rojos)</li>
+              <li class="list-group-item">Grandes $850</li>
+              <li class="list-group-item">Medianos $600</li>
+              <li class="list-group-item">Chicos (vienen 6 unidades) $60</li>
+              <li class="list-group-item">MASAS SECAS</li>
+              <li class="list-group-item">El Kg $1000</li>
+              <li class="list-group-item">TORTAS (Limón con chocolate blanco, Torta chocobomba, Naranja con chocolate negro, Marquise)</li>
+              <li class="list-group-item">Grande $1500</li>
+              <li class="list-group-item">Chica $700</li>
             </ul>
         </section>
     </main>
@@ -72,5 +95,6 @@
         <p class="seguinos">Seguinos</p></div>
         <div class="bp-copyright ft-copyright"></div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
