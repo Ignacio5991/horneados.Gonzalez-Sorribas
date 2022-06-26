@@ -50,12 +50,9 @@
 .taMaño{
     padding: 50px;
     transition: transform .2s;
-    width: 250px;
-    height: 250px;
-    margin:auto;
 }
 .taMaño:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .flaier{
     position:relative;
@@ -77,12 +74,20 @@ card-img-top{
 .card-title{
      text-align: center;
 }
+.title-contact{
+    text-align: center;
+}
+.fOrmulario{
+    padding: 60PX;
+    margin-left: 60PX;
+}
 /*Estilos de footer*/
 .footer{
     background-color: #362E30;
     font-family:'Italianno', cursive;
     color: #FFBF00;
     position: relative;
+    margin-top: 300px;
 }
 .footer-col{
     width: 32%;

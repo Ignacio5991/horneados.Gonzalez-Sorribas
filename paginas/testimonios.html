@@ -56,11 +56,16 @@
     <main>
         <h2 class="encabezado">Nos interesa tu opinion</h2>
         <form>
-            <label for="campo-nombre y apellido">Nombre y Apellido</label>
-            <input type="text" name="campo-nombre y apellido" id="campo-nombre y apellido"></input>
-            <textarea></textarea>
-            <input type="submit" value="enviar mensaje"></input>
-        </form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Testimonio</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
     </main>
     <!--Aqui comienza el footer-->
     <footer class="footer">
