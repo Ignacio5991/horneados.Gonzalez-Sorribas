@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    position: relative;
+    background-color: #FED8E5;
+}
+/* Estilos de Header*/
+@import "./header";
+/*estilos del main*/
+@import "./main";
+/*Estilos de footer*/
+@import "./footer";
+/*----Media Quaries tablet----*/
+@media screen and (max-width:768px){
+    .fOrmulario{
+        margin-left: auto;
+        margin-right: 100px;
+    }
+    .maPa{
+        margin-left: 230px;
+        width: 350px;
+        height: 350px;
+    }
+    
+}
+/*----Media Quaries Movile----*/
+@media screen and (max-width:420px){
+    .encabezado{
+        font-size: 50px;
+    }
+    .dEscripcion{
+        font-size: medium;
+    }
+    .fOrmulario{
+        margin-left: auto;
+    }
+    .maPa{
+        margin-left: 60px;
+        width: 300px;
+        height: 300px;
+    }
+    
+}

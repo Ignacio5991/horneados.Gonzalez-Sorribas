@@ -1,0 +1,31 @@
+/*---Variables---*/
+$cool-dorado: #FFBF00;
+$title-size: 55px;
+.header{
+    background-color: #362E30;
+    height: 200px;
+    font-family:'Italianno', cursive;
+    color: $cool-dorado;
+    text-align: start;
+}
+.logo{
+    margin-bottom: 100px;
+}
+.titulo{
+    text-align: center;
+
+}
+.nombreP{
+    text-align: center;
+    padding-top: 30px;
+    font-size: $title-size;
+}
+.nav-link{
+    padding: 20px;
+    margin-bottom: 50px;
+    color: #FFBF00;
+    text-decoration: none;
+    text-align: left;
+    font-size: 35px;
+    margin-left: 40px;
+}
