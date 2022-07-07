@@ -1,0 +1,18 @@
+$size: (
+   tituloInicio: 60px,
+   tamañoLetra: 30px 
+);
+.encabezado{
+    font-size: map-get($size, tituloInicio);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.catalogo{
+    font-size: map-get($size, tituloInicio);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+.card-title{
+    text-align: center;
+    font-size: map-get($size, tamañoLetra);
+}

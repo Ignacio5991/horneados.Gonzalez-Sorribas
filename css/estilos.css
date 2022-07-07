@@ -45,12 +45,6 @@
 }
 
 /*estilos del main*/
-.encabezado {
-  text-align: center;
-  font-size: 60px;
-  font-family: "Montserrat", sans-serif;
-}
-
 .gaLeria {
   display: flex;
   flex-direction: row;
@@ -73,10 +67,21 @@
   height: 260px;
 }
 
-.catalogo {
-  text-align: center;
+.encabezado {
   font-size: 60px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
+}
+
+.catalogo {
+  font-size: 60px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 30px;
 }
 
 .dEscripcion {
@@ -92,10 +97,6 @@ card-img-top {
   max-width: 300px;
 }
 
-.card-title {
-  text-align: center;
-}
-
 .title-contact {
   text-align: center;
 }
@@ -105,10 +106,20 @@ card-img-top {
   margin-left: 180px;
 }
 
+.btn {
+  font-family: "Italianno", cursive;
+  color: #FFBF00;
+  background-color: #362E30;
+}
+
 .maPa {
   margin-left: 500px;
   width: 400px;
   height: 400px;
+}
+
+.btn {
+  font-size: 35px;
 }
 
 /*Estilos de footer*/
@@ -157,6 +168,7 @@ card-img-top {
 
 .registrado {
   text-align: center;
+  font-size: 25px;
 }
 
 /*----Media Quaries tablet----*/

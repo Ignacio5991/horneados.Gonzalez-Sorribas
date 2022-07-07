@@ -34,6 +34,10 @@
     display: inline-block;
     font-size: larger;
 }
+@mixin sizes ($tamaño){
+    font-size: $tamaño;
+}
 .registrado{
-    text-align: center;   
+    text-align: center;
+    @include sizes(25px)
 }
