@@ -6,7 +6,6 @@
 }
 
 .body {
-  position: relative;
   background-color: #FED8E5;
 }
 
@@ -14,14 +13,13 @@
 /*---Variables---*/
 .header {
   background-color: #362E30;
-  height: 200px;
   font-family: "Italianno", cursive;
   color: #FFBF00;
-  text-align: start;
 }
 
 .logo {
-  margin-bottom: 100px;
+  width: 120px;
+  height: auto;
 }
 
 .titulo {
