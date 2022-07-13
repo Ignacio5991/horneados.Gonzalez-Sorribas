@@ -1,14 +1,14 @@
 
-.gaLeria{
+.galeria{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.taMaño{
+.tamaño{
     padding: 50px;
     transition: transform .2s;
 }
-.taMaño:hover{
+.tamaño:hover{
     transform: scale(1.2);
 }
 .flaier{
@@ -18,7 +18,7 @@
     height: 260px;
 }
 @import "./map";
-.dEscripcion{
+.descripcion{
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
 }
@@ -31,7 +31,7 @@ card-img-top{
 .title-contact{
     text-align: center;
 }
-.fOrmulario{
+.formulario{
     padding: 60PX;
     margin-left: 180px;
 }
@@ -40,7 +40,7 @@ card-img-top{
     color: #FFBF00;
     background-color: #362E30;
 }
-.maPa{
+.mapa{
     margin-left: 500px;
     width: 400px;
     height: 400px;
