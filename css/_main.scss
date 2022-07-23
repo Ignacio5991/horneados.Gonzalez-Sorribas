@@ -35,6 +35,13 @@ card-img-top{
     padding: 60PX;
     margin-left: 180px;
 }
+.testimonios{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.testimonio{
+    border: 6px solid #362E30;
+}
 %boton {
     font-family:'Italianno', cursive;
     color: #FFBF00;
