@@ -30,7 +30,7 @@
 }
 
 .nav-link {
-  padding-bottom: 480px;
+  margin-bottom: 480px;
   color: #FFBF00;
   text-decoration: none;
   font-size: 2.5rem;
@@ -187,6 +187,9 @@ card-img-top {
 @media screen and (max-width: 420px) {
   .encabezado {
     font-size: 50px;
+  }
+  .nav-link {
+    margin-bottom: 0px;
   }
   .descripcion {
     font-size: medium;
