@@ -4,6 +4,16 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.card-img{
+    height: 350px;
+    width: 350px;
+}
+.card-title{
+    font-family:'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+    color:#362E30;
+}
 .card-img-top{
     object-fit:cover;
     width: 100%;
