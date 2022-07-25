@@ -77,6 +77,13 @@
   height: 260px;
 }
 
+.fundadora {
+  margin-top: 100px;
+  margin-left: 480px;
+  width: 300px;
+  height: 300px;
+}
+
 .encabezado {
   font-size: 60px;
   text-align: center;
@@ -171,19 +178,19 @@ card-img-top {
 }
 
 .wsp {
-  width: 25px;
-  height: 25px;
+  width: 100px;
+  height: 100px;
 }
 
 .telefono-wsp {
   margin-top: 6px;
   display: inline-block;
-  font-size: larger;
+  font-size: xx-large;
 }
 
 .ig {
-  width: 25px;
-  height: 25px;
+  width: 100px;
+  height: 100px;
 }
 
 .bi {
@@ -197,12 +204,12 @@ card-img-top {
 .seguinos {
   margin-top: 6px;
   display: inline-block;
-  font-size: larger;
+  font-size: xx-large;
 }
 
 .registrado {
   text-align: center;
-  font-size: 25px;
+  font-size: xx-large;
 }
 
 /* Resoluciones Medias*/

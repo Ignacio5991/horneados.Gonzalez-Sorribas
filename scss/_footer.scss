@@ -10,18 +10,18 @@
     display: inline-block;
 }
 .wsp{
-    width: 25px;
-    height: 25px;
+    width: 100px;
+    height: 100px;
     
 }
 .telefono-wsp{
     margin-top: 6px;
     display: inline-block;
-    font-size: larger;
+    font-size: xx-large;
 }
 .ig{
-    width: 25px;
-    height: 25px;
+    width: 100px;
+    height: 100px;
 }
 .bi{
     color: #FFBF00
@@ -32,12 +32,12 @@
 .seguinos{
     margin-top: 6px;
     display: inline-block;
-    font-size: larger;
+    font-size: xx-large;
 }
 @mixin sizes ($tamaño){
     font-size: $tamaño;
 }
 .registrado{
     text-align: center;
-    @include sizes(25px)
+    @include sizes(xx-large)
 }
