@@ -12,14 +12,12 @@
 /*---Variables---*/
 .header {
   background-color: #362E30;
-  height: 200px;
   font-family: "Italianno", cursive;
   color: #FFBF00;
   text-align: start;
 }
 
 .logo {
-  padding-bottom: 480px;
   width: 120px;
   height: auto;
 }
@@ -29,7 +27,6 @@
 }
 
 .nav-link {
-  margin-bottom: 480px;
   color: #FFBF00;
   text-decoration: none;
   font-size: 2.5rem;
@@ -144,6 +141,22 @@ card-img-top {
   font-size: 35px;
 }
 
+/* Grids*/
+.testimonios {
+  margin-top: 60px;
+  margin-left: 180px;
+  display: inline-flex;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.testimonio {
+  border: 6px solid #362E30;
+  font-family: "Montserrat", sans-serif;
+  background-color: #362E30;
+  color: #FFBF00;
+}
+
 /*Estilos de footer*/
 .footer {
   background-color: #362E30;
@@ -191,6 +204,40 @@ card-img-top {
 .registrado {
   text-align: center;
   font-size: 25px;
+}
+
+/* Resoluciones Medias*/
+/*----Media Quaries tablet----*/
+@media screen and (max-width: 768px) {
+  .formulario {
+    margin-left: auto;
+    margin-right: 100px;
+  }
+  .mapa {
+    margin-left: 230px;
+    width: 350px;
+    height: 350px;
+  }
+}
+/*----Media Quaries Movile----*/
+@media screen and (max-width: 420px) {
+  .encabezado {
+    font-size: 50px;
+  }
+  .nav-link {
+    margin-bottom: 0px;
+  }
+  .descripcion {
+    font-size: medium;
+  }
+  .formulario {
+    margin-left: auto;
+  }
+  .mapa {
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

@@ -3,13 +3,12 @@ $cool-dorado: #FFBF00;
 $title-size: 55px;
 .header{
     background-color: #362E30;
-    height: 200px;
+    
     font-family:'Italianno', cursive;
     color: $cool-dorado;
     text-align: start;
 }
 .logo{
-    padding-bottom: 480px;
     width: 120px;
     height: auto;
    
@@ -19,7 +18,6 @@ $title-size: 55px;
 
 }
 .nav-link{
-    margin-bottom: 480px;
     color: #FFBF00;
     text-decoration: none;
     font-size: 2.5rem;
