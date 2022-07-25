@@ -151,8 +151,8 @@ card-img-top {
 /* Grids*/
 .testimonios {
   margin-top: 60px;
-  margin-left: 180px;
   display: grid;
+  justify-content: space-between;
   grid-template-columns: 30% 30% 30%;
 }
 
@@ -236,6 +236,10 @@ card-img-top {
   .descripcion {
     font-size: medium;
   }
+  .testimonios {
+    display: flex;
+    flex-direction: column;
+  }
   .formulario {
     margin-left: auto;
   }
@@ -243,6 +247,15 @@ card-img-top {
     margin-left: 60px;
     width: 300px;
     height: 300px;
+  }
+  .telefono-wsp {
+    font-size: x-large;
+  }
+  .seguinos {
+    font-size: x-large;
+  }
+  .registrado {
+    font-size: x-large;
   }
 }
 
