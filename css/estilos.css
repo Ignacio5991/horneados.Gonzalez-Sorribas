@@ -145,7 +145,6 @@ card-img-top {
 .testimonios {
   margin-top: 60px;
   margin-left: 180px;
-  display: inline-flex;
   display: grid;
   grid-template-columns: 30% 30% 30%;
 }
