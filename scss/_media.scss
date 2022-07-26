@@ -1,5 +1,8 @@
 /*----Media Quaries tablet----*/
 @media screen and (max-width:768px){
+    .testimonial-container{
+        width: 90%;
+    }
     .formulario{
         margin-left: auto;
         margin-right: 100px;
