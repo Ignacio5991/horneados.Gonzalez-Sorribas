@@ -1,5 +1,17 @@
 /*----Media Quaries tablet----*/
 @media screen and (max-width:768px){
+    .card{
+        margin-left: 180px;
+    }
+    .catalogo{
+        margin-top: 25px;
+    }
+    .inicio{
+        margin-left: 105px;
+    }
+    .titulitos{
+        margin-left: 60px;
+    }
     .testimonial-container{
         width: 90%;
     }
@@ -24,6 +36,19 @@
     }
     .descripcion{
         font-size: medium;
+    }
+    .inicio{
+        padding-left: 50px;
+    }
+    .titulitos{
+        margin-left: 15px;
+    }
+    .portada{
+        width: 320px;
+        height: 320px;
+    }
+    .card{
+        margin-left:0;
     }
     .testimonios{
         display: flex;
