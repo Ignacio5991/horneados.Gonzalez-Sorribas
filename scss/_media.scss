@@ -1,3 +1,15 @@
+/*----Media Quaries Laptop----*/
+@media screen and (max-width:1024px){
+    .inicio{
+        margin-left: 235px;
+    }
+    .titulitos{
+        margin-left: 60px;
+    }
+    .mapa{
+        margin-left:310px;
+    }
+}
 /*----Media Quaries tablet----*/
 @media screen and (max-width:768px){
     .card{

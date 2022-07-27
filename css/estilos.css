@@ -257,6 +257,10 @@ card-img-top {
   height: 100px;
 }
 
+.conversacion {
+  color: #FFBF00;
+}
+
 .telefono-wsp {
   margin-top: 6px;
   display: inline-block;
@@ -288,6 +292,18 @@ card-img-top {
 }
 
 /* Resoluciones Medias*/
+/*----Media Quaries Laptop----*/
+@media screen and (max-width: 1024px) {
+  .inicio {
+    margin-left: 235px;
+  }
+  .titulitos {
+    margin-left: 60px;
+  }
+  .mapa {
+    margin-left: 310px;
+  }
+}
 /*----Media Quaries tablet----*/
 @media screen and (max-width: 768px) {
   .card {
