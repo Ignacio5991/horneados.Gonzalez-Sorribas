@@ -1,5 +1,6 @@
 /*---Variables---*/
 $cool-dorado: #FFBF00;
+$total-withe:#FFFFFF;
 $title-size: 55px;
 .header{
     background-color: #362E30;
@@ -17,7 +18,11 @@ $title-size: 55px;
 
 }
 .nav-link{
-    color: #FFBF00;
+    color: $total-withe;
+    transition: $cool-dorado .5s;
     text-decoration: none;
     font-size: 2.5rem;
+}
+.nav-link:hover{
+    color: $cool-dorado;
 }
