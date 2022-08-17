@@ -1,6 +1,6 @@
 <?php
-$name = $_POST[name]
-$testimonio = $_POST[testimonio]
+$name = $_post[name]
+$testimonio = $_POST[Testimonio]
 $mensaje = "Este testimonio fue enviado por" . $name . ".\r\n";
 $mensaje = "El testimonio dice:" . $testimonio . "\r\n";
 $destinatario = "bimbo95car@hotmail.com";
